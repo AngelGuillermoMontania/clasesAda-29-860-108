@@ -1,0 +1,23 @@
+body {
+  background-color: gray;  
+}
+
+.primerDiv p {
+    font-size: 75px;
+    color: #FFF38C ;
+    font-weight: 100;
+    font-family: 'Montserrat', cursive;
+    letter-spacing: 15px;
+    /* text-indent: 50px; */
+    text-align: ;
+    text-shadow: 4px -4px 6px rgba(0,0,0,0.87);
+}
+
+.segundoDiv #enlace {
+    text-decoration: none;
+    font-size: 75px;
+}
+
+.caractericas #saludo {
+
+}
