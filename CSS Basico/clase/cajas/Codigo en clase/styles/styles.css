@@ -1,0 +1,93 @@
+body {
+    /* Color de fondo de la caja */
+    background-color: rgb(233, 231, 231);
+}
+
+p {
+    /* Reseteo estilos de la etiqueta p */
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.contain-card {
+    background-color: rgb(235, 74, 152);
+    /* Ancho de la caja */
+    width: 200px;
+
+    /* Alto de la caja */
+    height: 200px;
+
+    /* Borde de la caja */
+    /* 
+        --- MEDIDAS Y SUS TIPOS ---
+        1rem = 16px
+        1em = valor por default en el navegador
+        vw = el ancho de la vista (ViewPort width)
+        vh = el alto de la vista (ViewPort Height)
+        % = % de su padre
+    */
+
+    /* Comportamiento caja del elemento seleccionado */
+    display: inline-block;
+
+    /* Por herencia le pasa el color de texto blanco */
+    color: white;
+
+    /* Como se comportara el contenido del div */
+    overflow: hidden;
+    /* Padding, margin y border
+    margin: 30px;
+    border: white 5px unset 
+    */
+
+    /* Sombra de la caja */
+    box-shadow: -0px 0px 50px 10px rgba(0,0,0,0.75);
+
+    /* Puntas redondeadas */
+    border-radius: 10px;
+}
+
+.contain-card #icon-search {
+    /* Estilisar un icono de font awesome */
+    color: yellowgreen;
+    font-size: 2rem;
+    margin: 88px 88px;
+}
+
+
+
+/* 
+
+Calcular el tamaño de una card por ejemplo
+El diseñador de la pagina Me pide 200px de card total y 20 de padding para un espacio entre el contenido y el borde.
+{
+    alto: 160px
+    ancho: 160px
+    margin: 20px
+
+    160px(ancho) + 20px(margen derecha) + 20px(margen izquierda) = 200px en total de la caja
+}
+*/
+
+.segundo {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.tercero {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.principal {
+    display: inline-block;
+
+    /* Mayusculas, minusculas o capitalize */
+    text-transform: capitalize;
+}
