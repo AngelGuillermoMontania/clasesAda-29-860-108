@@ -1,0 +1,58 @@
+body {
+    background-color: gray;
+
+}
+
+main {
+    height: 1000px;
+    width: 1200px;
+    border: 2px white solid;
+
+    display: flex;
+    /* 
+    space-evenly: misma cantidad de espacio
+    space-around: mitad de espacio a los costado
+    space-between: no deja espacio a los lados
+    */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* 
+    Alinea verticalmente
+    flex-direction: column;
+    */
+    /* 
+    Sigue colocando elementos debajo cuando se supera el ancho
+    flex-wrap: wrap
+    */
+}
+
+.primer-div {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.segundo-div {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+.tercer-div {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+}
+
+.cuarto-div {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+
+.quinto-div {
+    background-color: rosybrown;
+    height: 200px;
+    width: 200px;
+}
