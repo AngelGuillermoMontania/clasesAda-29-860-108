@@ -1,0 +1,44 @@
+body {
+    background-color: darksalmon;
+    height: 200vh;
+}
+
+.primerDiv {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-color: black;
+}
+
+.segundoDiv {
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    background-color: white;
+
+    /* 
+        POSITION RELATIVE: mantiene su espacio en el flujo del documento pero se puede ubicar con top, left, right o bottom
+        POSITION ABSOLUTE: Sale de su espacio en el flujo del documento y se puede ubicar con top, left, right o bottom
+
+        Si el padre tiene relative y el hijo absolute. El elemento absolute toma de referencia al relative padre
+
+
+
+        POSITION FIXED: SE QUEDA FIJO EN EL DOCUMENTO y sale del flujo del documento
+
+        Z-INDEX: Nivel de importancia en el documento (Que se vera por encima)
+    */
+    position: relative;
+    margin-top: 15rem;
+    margin-left: 10rem;
+}
+
+#position {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: red;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+}
