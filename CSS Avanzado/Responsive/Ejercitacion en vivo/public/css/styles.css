@@ -1,0 +1,45 @@
+.home {
+    background-color: aqua;
+}
+
+.home .box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+/*  MOBILE FIRST */
+
+/* Aplicara estos estilos cuando la pantalla sea igual o mayor a 768px */
+@media (min-width: 768px) {
+    
+    .home {
+        background-color: blueviolet;
+    }
+
+    .home .box {
+        width: 500px;
+        background-color: red;
+    }
+
+}
+
+
+/* Aplicara estos estilos cuando la pantalla sea igual o mayor a 1024px  */
+@media (min-width: 1024px) {
+    
+    .home .box {
+        background-color: yellow;
+    }
+
+}
+
+
+/* Aplicara estos estilos cuando la pantalla sea igual o mayor a 1440px */
+@media (min-width: 1440px) {
+    
+    .home .box {
+        background-color: green;
+    }
+
+}
