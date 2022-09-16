@@ -28,11 +28,16 @@ for (El contador; La condicion; Suma) {
     const element = array[index];
     
 } */
-/* let numero = 10
+let numero = 10
 for (let count = 0; count < numero; count++) {
     if(count % 2 === 0) {
         console.log(count, "Es par")
     } else {
         console.log(count, "No es par")
     }
-} */
+}
+
+// Primera instancia: al finalizar el codigo a ejecutar (if, else), va a sumar 1 a count
+// Segunda instancia: El count inicia en 1, count es menor que numero? como da true, ejecuta el
+// codigo. Al finalizar la ejecucion vuelve a sumar 1
+// Tercera

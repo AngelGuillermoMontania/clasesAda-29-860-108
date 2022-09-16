@@ -1,8 +1,19 @@
 # Condicionales y operadores lógicos
 
+<br>
+<br>
+
+## *Obligatorios o recomendados:*
+- Ejercicios con operadores Logicos del 1 al 4;
+- Ejercicios condicionales del 1 al 5;
+- LOS EJERCICIOS PUEDEN RESOLVERSE CON CUALQUIER COSA DE LAS APRENDIDAS. PUEDEN INVESTIGAR POR SUS CUENTAS
+
+<br>
+<br>
+
 ## Ejercicios con operadores lógicos
 
-### `puedeVerPelicula(edad, tieneAutorizacion)`
+### `1) puedeVerPelicula(edad, tieneAutorizacion)`
 
 Crear una función `puedeVerPelicula` que tome como argumentos un número `edad` y un booleano `tieneAutorizacion`, y devuelva `true` si la persona está habilitada para ver la película o `false` si no. Sólo puede ver la película si: tiene 15 años o más, o tiene autorización de sus padres.
 
@@ -13,7 +24,7 @@ puedeVerPelicula(16, false) // true
 puedeVerPelicula(18, true)  // true
 ```
 
-### `estaEnRango(valor, minimo, maximo)`
+### `2) estaEnRango(valor, minimo, maximo)`
 
 Crear una función `estaEnRango` que tome como argumentos tres números, un `valor`, un número `minimo` y un número `maximo`, y devuelva `true` si el `valor` se encuentra entre los números `minimo` y `maximo` o `false` si no (si el `valor` es igual a uno de los extremos se considera que está dentro del rango)
 
@@ -25,7 +36,7 @@ estaEnRango(12, 1, 10)  // false
 estaEnRango(-3, 1, 10)  // false
 ```
 
-### `puedeAvanzar(colorSemaforo)`
+### `3) puedeAvanzar(colorSemaforo)`
 
 Crear una función `puedeAvanzar` que tome como argumento un string con el color del semáforo y devuelva `true` si puede avanzar o `false` si no. Si no se ingresa un color válido, debe devolver un string que diga: `Error: color de semáforo inválido`
 
@@ -36,7 +47,7 @@ puedeAvanzar('rojo')      // false
 puedeAvanzar('lila')      // 'Error: color de semáforo inválido'
 ```
 
-### `esVocal(letra)`
+### `4) esVocal(letra)`
 
 Crear una función `esVocal` que tome como argumento un string `letra` y devuelva `true` si `letra` es una vocal o `false` si no lo es.
 
@@ -45,7 +56,7 @@ esVocal('a') // true
 esVocal('n') // false
 ```
 
-### `esConsonante(letra)`
+### `5) esConsonante(letra)`
 
 Crear una función `esConsonante` que tome como argumento un string `letra` y devuelva `true` si `letra` es una consonante o `false` si no lo es
 
@@ -54,7 +65,7 @@ esVocal('a') // false
 esVocal('n') // true
 ```
 
-### `puedeRenovarCarnet(pasoTests, tieneMultasImpagas, pagoImpuestos)`
+### `6) puedeRenovarCarnet(pasoTests, tieneMultasImpagas, pagoImpuestos)`
 
 Crear una función `puedeRenovarCarnet` que tome como argumentos tres booleanos, `pasoTests`, `tieneMultasImpagas` y `pagoImpuestos`, y devuelva `true` si una persona está habilitada para renovar su carnet de conducir o `false` si no. Una persona puede renovar su carnet si pasó los tests, no tiene multas impagas y pagó todos los impuestos
 
@@ -69,7 +80,7 @@ puedeRenovarCarnet(false, false, true)  // false
 puedeRenovarCarnet(false, false, false) // false
 ```
 
-### `puedeGraduarse(asistencia, materiasAprobadas, tesisAprobada)`
+### `7) puedeGraduarse(asistencia, materiasAprobadas, tesisAprobada)`
 
 Crear una función `puedeGraduarse` que tome como argumentos dos números `asistencia` y `materiasAprobadas` y un booleano `tesisAprobada`, y devuelva `true` si una persona puede gruadarse o `false` si no. Una persona puede graduarse si tiene un 75% de asistencia o más, 50 materias aprobadas o más y la tesis aprobada.
 
@@ -86,7 +97,7 @@ puedeGraduarse(28, 45, false) // false
 
 ## Ejercicios con condicionales
 
-### `esParOImpar(numero)`
+### `1) esParOImpar(numero)`
 
 Crear una función `esParOImpar` que acepte como argumento un `numero` y devuelva el string `par` si el `numero` es par, o el string `impar` si el `numero` es impar
 
@@ -95,7 +106,7 @@ esParOImpar(3)  // 'impar'
 esParOImpar(10) // 'par'
 ```
 
-### `esPositivoONegativo(numero)`
+### `2) esPositivoONegativo(numero)`
 
 Crear una función `esPositivoONegativo` que acepte como argumento un `numero` y devuelva el string `positivo` si el `numero` es positivo, o el string `negativo` si el `numero` es negativo
 
@@ -104,7 +115,7 @@ esPositivoONegativo(3)  // 'positivo'
 esPositivoONegativo(-5) // 'negativo'
 ```
 
-### `avanzarSemaforo(colorActual)`
+### `3) avanzarSemaforo(colorActual)`
 
 Crear una función `avanzarSemaforo` que acepte como argumento un string `colorActual` y devuelva un string con el siguiente color del semáforo, siguiendo el orden: verde -> amarillo -> rojo -> verde
 
@@ -114,16 +125,7 @@ avanzarSemaforo('amarillo')  // 'rojo'
 avanzarSemaforo('rojo')      // 'verde'
 ```
 
-### `obtenerDiasMes(mes)`
-
-Crear una función `obtenerDiasMes` que tome como argumento un string `mes` y devuelva un número dependiendo de la cantidad de días que tenga ese mes
-
-```javascript
-obtenerDiasMes("diciembre") // 31
-obtenerDiasMes("febrero")   // 29
-```
-
-### `obtenerGeneracion(anioNacimiento)`
+### `4) obtenerGeneracion(anioNacimiento)`
 
 Crear una función `obtenerGeneracion` que tome como argumento un número `anioNacimiento` y devuelva un string con la generación a la que pertenece, siguientdo estas reglas:
 
@@ -134,7 +136,7 @@ Crear una función `obtenerGeneracion` que tome como argumento un número `anioN
 | Millennials | 1981-1993 |
 | Generación Z | 1994-2010 |
 
-### `obtenerSensacion(temperatura)`
+### `5) obtenerSensacion(temperatura)`
 
 Crear una función `obtenerSensacion` que tome como argumento un número `temperatura` y devuelva un string dependiendo de la `temperatura`, con las siguientes reglas:
 
@@ -150,7 +152,7 @@ Crear una función `obtenerSensacion` que tome como argumento un número `temper
 obtenerSensacion(33) // "¡Hace mucho calor!"
 ```
 
-### `obtenerNota(puntaje)`
+### `6) obtenerNota(puntaje)`
 
 Crear una función `obtenerNota` que tome como argumento un número `puntaje` y devuelva un string dependiendo del `puntaje` redondeado, con las siguientes reglas:
 
@@ -169,7 +171,16 @@ obtenerNota(9.6)  // "Excelente"
 obtenerNota(12)   // "Puntaje inválido"
 ```
 
-### `jugarPiedraPapelTijera(a, b)`
+### `7) obtenerDiasMes(mes)`
+
+Crear una función `obtenerDiasMes` que tome como argumento un string `mes` y devuelva un número dependiendo de la cantidad de días que tenga ese mes
+
+```javascript
+obtenerDiasMes("diciembre") // 31
+obtenerDiasMes("febrero")   // 29
+```
+
+### `8) jugarPiedraPapelTijera(a, b)`
 
 Crear una función `jugarPiedraPapelTijera` que tome como argumentos dos strings `a` y `b` que representen una jugada (`piedra`, `papel`, `tijera`) y dependiendo el devuelva un string con un mensaje avisando qué jugada ganó (o si hubo empate)
 

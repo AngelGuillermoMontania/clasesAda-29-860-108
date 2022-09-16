@@ -118,7 +118,7 @@ switch (key) {
 /* Operador ternario */
 
 
-/* let resultado = numero >= 5 ? "Es mayor o igual a 5" : "Es menor a 5" */
+/* numero >= 5 ? "Es mayor o igual a 5" : "Es menor a 5" */
 
 /* let resultado */
 /* if(numero >= 5) {
