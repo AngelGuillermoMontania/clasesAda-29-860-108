@@ -1,0 +1,104 @@
+main.container #create {
+    font-size: 0.3rem;
+}
+
+main.container .characters {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+main.container .characters .box {
+    width: 30%;
+    height: 6rem;
+    background-color: rgb(43, 43, 102);
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 0px whitesmoke;
+    display: flex;
+    margin: 0.5rem 0;
+    transition: all 500ms ease-in-out;
+}
+
+main.container .characters .box:hover {
+    transform: scale(1.05);
+}
+
+main.container .characters .box img {
+    width: 30%;
+    border-radius: 4px 0 0 4px;
+}
+
+main.container .characters .box .character {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main.container .characters .box .character .name {
+    font-family: Shlop;
+    font-size: 0.9rem;
+    color: greenyellow;
+    text-align: center;
+}
+
+main.container .characters .box .character .specie {
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(14, 14, 83);
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.3rem;
+    margin: 3px 0;
+    font-family: Shlop;
+}
+
+main.container .characters .box .character .status {
+    text-align: center;
+    color: white;
+    padding: 2px;
+    background-color: rgb(14, 14, 83);
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.3rem;
+    font-family: Shlop;
+}
+
+main.container .characters .box .character .gender {
+    text-align: center;
+    color: white;
+    padding: 2px;
+    background-color: rgb(14, 14, 83);
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 0.3rem;
+    margin: 3px 0;
+    font-family: Shlop;
+}
+
+main.container .characters .box .character .contain-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+main.container .characters .box .character .buttonEdit,
+main.container .characters .box .character .buttonDelete {
+    font-size: 0.2rem;
+    color: white;
+    border: none;
+    padding: 2x 4px;
+    background-color: rgb(43, 43, 102);
+    text-transform: uppercase;
+    transition: all 300ms ease-in-out;
+}
+
+main.container .characters .box .character .buttonEdit:hover,
+main.container .characters .box .character .buttonDelete:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}

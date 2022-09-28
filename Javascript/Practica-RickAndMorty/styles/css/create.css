@@ -1,0 +1,54 @@
+.create main {
+    padding: 1rem 20%;
+}
+
+.create main .title{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.create main form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 7rem;
+}
+
+.create main form input{
+    height: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 0.4rem;
+    padding: 0.2rem;
+    width: 100%;
+}
+
+.create main form input:focus{
+    outline: none;
+}
+
+.create main form input::-webkit-input-placeholder{
+    font-size: 0.4rem;
+}
+.create main form input:-moz-placeholder{ /* Firefox 18- */
+    font-size: 0.4rem;
+}
+.create main form input::-moz-placeholder{ /* Firefox 19+ */
+    font-size: 0.4rem;
+}
+.create main form input:-ms-input-placeholder{
+    font-size: 0.4rem;
+}
+
+.create main form .btn-create{
+    background-color: aqua;
+    border: 0.5px solid blue;
+    border-radius: 0.25rem;
+    margin: 0 auto;
+}
+
+.create main form .btn-create:hover{
+    cursor: pointer;
+    border: 0.5px solid aqua;
+}
